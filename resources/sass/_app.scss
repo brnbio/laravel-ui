@@ -1,0 +1,38 @@
+// dependencies
+@import 'variables';
+@import '~roboto-sass/scss/roboto/light';
+@import '~roboto-sass/scss/roboto/medium';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~bootstrap/scss/bootstrap';
+
+// layout
+html {
+  overflow-y: scroll;
+}
+body {
+  padding-top: 128px;
+}
+.navbar-top {
+  padding: 1rem 1.5rem;
+  z-index: 1031;
+}
+.navbar-second {
+  top: 72px;
+  .nav-item:first-child .nav-link {
+    padding-left: 0;
+  }
+}
+
+// typo
+.page-title {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+// forms
+.btn {
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
