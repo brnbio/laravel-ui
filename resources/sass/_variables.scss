@@ -1,17 +1,18 @@
-$primary: #448AFF;
-$success: #4CAF50;
-$danger: #F44336;
-$warning: #FF9800;
-$info: #03A9F4;
-$secondary: #757575;
+// -- google material colors
+$primary: #448AFF !default;
+$success: #4CAF50 !default;
+$danger: #F44336 !default;
+$warning: #FF9800 !default;
+$info: #03A9F4 !default;
+$secondary: #757575 !default;
 
-$body-bg: #ffffff;
-$body-color: #212121;
+$body-bg: #ffffff !default;
+$body-color: #212121 !default;
 
-$font-family-sans-serif: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-$font-size-base: 0.9rem;
-$font-weight-base: 300;
-$font-weight-bold: 500;
-$line-height-base: 1.6;
+$font-family-sans-serif: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !default;
+$font-size-base: 0.9rem !default;
+$font-weight-base: 300 !default;
+$font-weight-bold: 500 !default;
+$line-height-base: 1.6 !default;
 
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1370px) !default;
